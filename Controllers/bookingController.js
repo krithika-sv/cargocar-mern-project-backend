@@ -1,7 +1,7 @@
 const Razorpay = require("razorpay");
 const booking = require("../models/BookingModel");
 const cars = require("../models/car");
-const users = require("../models/usermodel");
+const users = require("../models/userModel");
 
 //booking car by user
 exports.bookCarController = async (req, res) => {
